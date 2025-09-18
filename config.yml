@@ -68,6 +68,7 @@ opening_books:
         - lila
         - fb
         - probook
+        - perfect2023
       
     standard_black:
       selection: uniform_random                # Move selection is one of "weighted_random", "uniform_random" or "best_move".
@@ -75,6 +76,7 @@ opening_books:
         - fb
         - lila
         - probook
+        - perfect2023
     standard_white:
       selection: uniform_random      # Move selection is one of "weighted_random", "uniform_random" or "best_move".
       max_depth: 400                       # Half move max depth. (Comment this line for max depth)
@@ -220,3 +222,5 @@ books:                                    # Names of the opening books (to be us
   probook: "./engines/probook.bin"
   fw: "./engines/fw.bin"
   fb: "./engines/fb.bin"
+  perfect2023: "./engines/Perfect2023.bin"
+  lila: "./engines/lila.bin"
